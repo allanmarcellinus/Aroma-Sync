@@ -1,6 +1,6 @@
 # Aroma Sync
 
-Projeto interdisciplinar criado durante a culminância dos cursos técnicos da **Escola Estadual Professora Antoneita Borges Alves**, integrando os conhecimentos das áreas de **Administração**, **Desenvolvimento de Sistemas** e **Logística**.
+Projeto interdisciplinar criado durante a culminância dos cursos técnicos da **Escola Estadual Professora Antonieta Borges Alves**, integrando os conhecimentos das áreas de **Administração**, **Desenvolvimento de Sistemas** e **Logística**.
 
 ## 💡 Visão Geral
 
@@ -31,7 +31,7 @@ Este projeto foi desenvolvido como parte do trabalho final dos cursos técnicos 
 - **Desenvolvimento de Sistemas**
 - **Logística**
 
-Oferecidos pela **Escola Estadual Professora Antoneita Borges Alves**, promovendo o aprendizado prático e interdisciplinar com foco em inovação.
+Oferecidos pela **Escola Estadual Professora Antonieta Borges Alves**, promovendo o aprendizado prático e interdisciplinar com foco em inovação.
 
 ## 🧠 Equipe Envolvida
 
@@ -45,4 +45,4 @@ Equipe formada por alunos e professores das três áreas técnicas, com colabora
 
 ---
 
-> Projeto apresentado na Culminância dos Cursos Técnicos da **EE Profª Antoneita Borges Alves** — buscando soluções criativas que unem tecnologia, gestão e logística.
+> Projeto apresentado na Culminância dos Cursos Técnicos da **EE Profª Antonieta Borges Alves** — buscando soluções criativas que unem tecnologia, gestão e logística.
