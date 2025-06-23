@@ -4,6 +4,7 @@ let dots = document.querySelectorAll('.slider .dots li');
 let prev = document.getElementById("prev");
 let next = document.getElementById("next");
 
+
 let active = 0;
 let lengthItems = items.length - 1;
 let refreshSlider = setInterval(() => {nexst.click()}, 7000);
@@ -16,6 +17,15 @@ function reloadSlider(){
     dots[active].classList.add('active');
     clearInterval(refreshSlider);
     let refreshSlider = setInterval(() => {nexst.click()}, 10000)
+}
+function trocarimagem(){
+    document.getElementById("Foneprincipal").src = "../img/FoneTras.png";
+}
+function voltarimagem(){
+    document.getElementById("Foneprincipal").src = "../img/FonePrincipal.png";
+}
+function trocarimagem2(){
+    document.getElementById("Foneprincipal").src = "../img/FoneLateral.png";
 }
 prev.onclick = function(){
     if(active -1 < 0){
