@@ -734,6 +734,13 @@ main{
     max-width: 100%;
     max-height: 100%;
 }
+.allhair-card-payment{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 50px 60px;
+}
+
 .payment-container{
     width: 100%;
     display: flex;
@@ -789,12 +796,8 @@ main{
     cursor: pointer;
     border: none;
 }
-.methods div:hover{
-    filter: opacity(1);
-    transform: perspective(500px)
-    translateY(8px)
-    rotateY(20deg);
-}
+
+
 .payment-method{
     box-sizing: border-box;
     width: 400px;
