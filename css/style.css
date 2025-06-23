@@ -94,6 +94,7 @@ header{
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: 27vh;
 }
 .imagemfone{
   width: 100%;
@@ -545,9 +546,12 @@ main{
     padding: 5px;
     border: 1px solid #dfe1e5;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .headphone-image img{
-    width: 100%;
+    
     height: 100%;
     object-fit: cover;
 }
@@ -565,7 +569,7 @@ main{
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 150px;
+    height: 100%;
     padding: 20px;
     border-radius: 20px;
     background-color: #dfe1e5;
@@ -657,7 +661,7 @@ main{
     text-align: center;
     border-radius: 70px;
     border: none;
-    margin-left: auto;
+    
 
 }
 .headphone-options{
