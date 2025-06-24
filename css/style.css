@@ -448,7 +448,7 @@ main{
 .headphone-container-index{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin-top: 50px;
     gap: 20px;
@@ -470,7 +470,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 350px;
+    max-width: 250px;
     max-height: 500px;
     border-radius: 20px;
     box-shadow: -15px 15px 0px;
@@ -510,7 +510,7 @@ main{
     height: 100vh;
     margin-bottom: 50px;
 }
-.allhair-video img{
+.allhair-video video{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -657,6 +657,7 @@ main{
     text-align: center;
     border-radius: 70px;
     border: none;
+    margin-right: auto;
     
 
 }
@@ -733,6 +734,7 @@ main{
 .allhair-card img{
     max-width: 100%;
     max-height: 100%;
+    border-radius: 20px;
 }
 .allhair-card-payment{
     width: 90%;
@@ -1005,7 +1007,7 @@ footer{
 }
 
 .fotogeral {
-    margin-right: 200px;
+    margin-left: auto;
 }
 
 @media (max-width: 868px){
