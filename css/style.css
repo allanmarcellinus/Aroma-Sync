@@ -1210,3 +1210,17 @@ section.comments {
 .swiper-wrapper {
     margin-left: -15px;
 }
+
+.colaboradores2-container{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    row-gap: 40px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    margin: auto;
+    padding-bottom: 50px;
+}
