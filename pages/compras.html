@@ -1,12 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aroma Sync & All Hair</title>
     <link rel="stylesheet" href="../css/style.css">
+
+    <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- SWIPER CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_forward" />
 </head>
 <body>
@@ -19,32 +25,30 @@
             </ul>
         </nav>
     </header>
-    <main style="
-    margin-top: 200px;
-">
-<div class="allhair-video" style="position: relative; width: 100%; height: 945px; overflow: hidden; top: -240px;">
-    <video id="video" width="100%" height="945px" style="z-index: 1; position: relative;">
-        <source src="../img/lv_0_20250611164651.mp4" type="video/mp4">
-    </video>
+    <main>
+        <div class="allhair-video" style="position: relative; width: 100%;  overflow: hidden;">
+            <video id="video" style="z-index: 1;">
+                <source src="../img/lv_0_20250611164651.mp4" type="video/mp4">
+            </video>
 
-    <button id="playBtn" style="
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        z-index: 2;
-        padding: 15px 30px;
-        font-size: 18px;
-        background-color: #ffff;
-        border: none;
-        color: black ;
-        cursor: pointer;
-        border-radius: 5px;
-        border-radius: 40px;
-    ">
-        Sinta agora a experiência Aroma Sync
-    </button>
-</div>
+            <button id="playBtn" style="
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                z-index: 2;
+                padding: 15px 30px;
+                font-size: 18px;
+                background-color: #ffff;
+                border: none;
+                color: black ;
+                cursor: pointer;
+                border-radius: 5px;
+                border-radius: 40px;
+            ">
+                Sinta agora a experiência Aroma Sync
+            </button>
+        </div>
 
 <script>
     const playBtn = document.getElementById('playBtn');
@@ -111,11 +115,10 @@
                         <li>Diadema, São Paulo</li>
                         <li><img src="../img/FreteIcon.png" alt=""></li>
                     </ul>
-                    <p>Frete: <span class="line-through">R$9,99</span> R$0,00 V</p>
+                    <p>Frete: <span class="line-through">R$9,99</span> R$0,00 <i class="fa-solid fa-angle-right" style="transform: rotate(90deg);"></i></p>
                     <p><span class="bold">Frete grátis</span> na primeira compra, utilizando o cupom <span class="bold">PRIMEIRACOMPRA</span></p>
                 </div>
                 <div class="cupom">
-                    
                     <input type="text" placeholder="Digite seu cupom">
                     <p>APLICAR CUPOM</p>
                 </div>
@@ -261,31 +264,31 @@
             <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js">
             </script>
             <script>
-            new Swiper('.card-wrapper', {
-                loop: true,
-                spaceBetween: 30,
+                new Swiper('.card-wrapper', {
+                    loop: true,
+                    spaceBetween: 30,
 
-                pagination: {
-                    el: '.swiper-pagination',
-                    clickable: true,
-                    dynamicBullets: true,
-                },
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                },
-                breakpoints: {
-                    0: {
-                        slidesPerView: 1
+                    pagination: {
+                        el: '.swiper-pagination',
+                        clickable: true,
+                        dynamicBullets: true,
                     },
-                    768: {
-                        slidesPerView: 2
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
                     },
-                    1024: {
-                        slidesPerView: 3
-                    },
-                }
-            });
+                    breakpoints: {
+                        0: {
+                            slidesPerView: 1
+                        },
+                        768: {
+                            slidesPerView: 2
+                        },
+                        1024: {
+                            slidesPerView: 3
+                        },
+                    }
+                });
             </script>
         </section>
         <section class="allhair-cards">
