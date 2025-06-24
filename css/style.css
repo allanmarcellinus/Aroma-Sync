@@ -219,7 +219,7 @@ main{
     align-items: center;
 }
 .story-container-1{
-    width: 1300px;
+    width: 100%;
     max-width: 100%;
     height: 700px;
     margin-top: 50px;
@@ -565,6 +565,7 @@ main{
     object-fit: cover;
 }
 .description-content{
+    margin-top: 50px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -578,9 +579,6 @@ main{
     overflow: hidden;
     transition: 0.2s ease-in-out;
     cursor: pointer;
-}
-.description-content:hover{
-    background-color: #757575;
 }
 .description-content.active{
     height: 100%;
@@ -758,6 +756,7 @@ main{
     margin-top: 250px;
 }
 .methods {
+    margin-bottom: 50px;
     width: 90%;
     display: flex;
     justify-content: space-around;

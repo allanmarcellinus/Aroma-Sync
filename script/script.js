@@ -52,8 +52,3 @@ dots.forEach((list, key) => {
         reloadSlider();
     })
 })
-
-function openDescription(){
-    description = document.querySelector('.description-content');
-    active = description.classList.toggle('active');
-}
