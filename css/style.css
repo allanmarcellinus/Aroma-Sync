@@ -722,11 +722,12 @@ main{
     position: absolute;
     background-color: #fff;
     border: none;
-    padding: 10px 30px;
+    padding: 15px 30px;
     font-size: 20px;
     border-radius: 40px;
     transform: translate(15%, 190%);
     cursor: pointer;
+    margin-left: 30px;
 }
 .allhair-card button:hover{
     filter: brightness(0.9);
@@ -873,7 +874,7 @@ footer{
     font-size: 32px;
 }
 .footer-text p{
-    max-width: 500px;
+    max-width: 40%;
     color: black;
 }
 .classroom-description img{
